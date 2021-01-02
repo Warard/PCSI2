@@ -1,0 +1,80 @@
+/* 4DB8E4 */
+
+html
+{
+    background-color: #F6F6F6;
+    /* background-image: url('background.jpg'); */
+
+    /* background-image: url('https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg'); */
+
+}
+
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #27ae60;
+    opacity: 0.9;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+.container
+{
+    margin-left: calc((100% - 90%) /2);
+    width: 90%;
+}
+
+.songs
+{
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-radius: 10%
+}
+
+.songs > .song_caption
+{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.songs > .songs_buttonContainer > .song_button
+{
+    width: 10%;
+    height: 100%;
+
+    padding:20px 60px;
+    outline: none;
+    background-color: #27ae60;
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 9px #95a5a6;
+}
+
+.songs > .songs_buttonContainer > .song_button:hover
+{
+    background-color: #2ecc71;
+}
+
+.songs > .songs_buttonContainer > .song_button:active
+{
+    background-color: #2ecc71;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(4px);
+}
+
+.songs_buttonContainer
+{
+    margin-right: -10%;
+    display: flex;
+    justify-content: space-around;
+}
